@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-#server.py
 
 import socket
+
+# This by default will listen on port 8080. Feel free to change this to whatever port you need.
 
 host = socket.gethostname()
 port = 8080
